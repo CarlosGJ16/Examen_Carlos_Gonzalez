@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla</title>
+    <link rel="stylesheet" href="estilos.css/pagina4.css">
+</head>
+<body>
+    <h1>Operaciones</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th class="animated">Operación</th>
+                <th class="animated">Descripción</th>
+                <th class="animated">Botones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Cálculo</td>
+                <td>Ingresar el salario y el descuento para calcular el total</td>
+                <td><button onclick="calcularSalario()">Calcular</button></td>
+            </tr>
+            <tr>
+                <td>Salario Total</td>
+                <td>Ingresar 3 puntajes y calcular el total</td>
+                <td><button onclick="calcularPuntajes()">Calcular</button></td>
+            </tr>
+            <tr>
+                <td>Porcentaje de Punto</td>
+                <td>Ingresar un puntaje y calcular el 15% del puntaje</td>
+                <td><button onclick="calcularPorcentaje()">Calcular</button></td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <div id="resultado">
+        <p id="resultado-text"></p>
+    </div>
+
+    <nav class="navigation">
+        <a href="index.html">Volver al Login</a>
+        <a href="Pagina2.html">APIs</a>
+        <a href="pagina3.html">Datos del empleado</a>
+    </nav>
+
+    <script src="javascript.js/pagina4.js"></script>
+</body>
+</html>
